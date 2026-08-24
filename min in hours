@@ -1,0 +1,11 @@
+include <stdio.h>
+
+int main() {
+    int a;
+    printf("enter  the  mi");
+    scanf("%d",&a);
+    int b;
+    b=a/60;
+    printf("min in hours will  be :%d",b);
+    return 0;
+}
