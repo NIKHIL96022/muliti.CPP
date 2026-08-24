@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main(){
+
+    int r;
+    printf("enter the amount:");
+    scanf("%d",&r);
+    int d;
+    d=r/48;
+
+    int p;
+    p=r/70;
+    
+    printf("%d d =%d p",d,p);
+    return 0;
+}
+
+
