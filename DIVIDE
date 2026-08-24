@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int a;
+    printf("enter first no.,");
+    scanf("%d",&a);
+    int b;
+    printf("enter second no, ");
+    scanf("%d",&b);
+    int c;
+    c=a/b;
+    printf("sum of two numbe is : %d",c);
+    
+
+    return 0;
+}
