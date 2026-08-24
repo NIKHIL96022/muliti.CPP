@@ -1,0 +1,17 @@
+include<stdio.h>
+int main(){
+
+   int gross;
+   printf("enter the gross");
+   scanf("%d",&gross);
+   int  allow;
+   printf("enter the allow");
+   scanf("%d",&allow);
+   int deduct;
+   printf("enter the deduct amount");
+   scanf("%d",&deduct);
+   int netsalary;
+   netsalary=gross+allow-deduct;
+   printf("%d",netsalary);
+     return 0;
+}
