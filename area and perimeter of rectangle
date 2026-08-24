@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+
+   int len;
+   printf("enter the length of square:");
+   scanf("%d",&len);
+   int area;
+   area =len *len;
+   printf("%d\n",area);
+   int peri;
+   peri = 4*len;
+   printf("%d\n",peri);
+     return 0;
+}
