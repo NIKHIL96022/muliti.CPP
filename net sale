@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+
+   int gross;
+   printf("enter the gross");
+   scanf("%d",&gross);
+   int discount;
+   discount=gross*10/100;
+   int net_sale;
+   net_sale=gross-discount;
+   printf("%d",net sale)
+     return 0;
